@@ -336,7 +336,7 @@ a img.aligncenter {
 	font-size: 16px;
 }
 .email-box a:hover{
-	color: #fd6802;
+	color: #feed07;
 }
 .email-box a i{
 	padding: 0px 5px;
@@ -350,7 +350,7 @@ a img.aligncenter {
 	font-size: 16px;
 }
 .phone-box a:hover{
-	color: #fd6802;
+	color: #feed07;
 }
 .phone-box a i{
 	padding: 0px 5px;
@@ -370,7 +370,7 @@ a img.aligncenter {
 	font-size: 20px;
 }
 .social-box ul li a:hover{
-	color: #fd6802;
+	color: #feed07;
 }
 
 
@@ -3702,63 +3702,6 @@ section {
     margin-bottom: 30px
 }
 
-ul.people {
-
-}
-
-ul.people>li {
-    width: 47%;
-    margin-bottom: 20px;
-    text-align: center
-}
-
-ul.people>li:nth-child(odd) {
-    margin-right: 6%
-}
-
-ul.people>li .picture {
-    position: relative;
-    display: inline-block;
-    z-index: 3
-}
-
-ul.people>li .picture::before {
-    position: absolute;
-    z-index: -1;
-    content: ' ';
-    top: 4px;
-    left: -5px;
-    width: 120px;
-    height: 120px;
-    border-radius: 60px;
-    background-color: #feed07;
-}
-
-ul.people>li .picture img {
-    border-radius: 60px;
-    border: 3px solid #fff
-}
-
-ul.people>li .content {
-    margin: -45px 0 0;
-    padding: 40px 20px 10px;
-    border: 1px solid #f1f1f1;
-    box-shadow: 0 0 8px 0 rgba(0,0,0,.13);
-    border-radius: 10px;
-    font-size: 13px
-}
-
-ul.people>li .content h2,ul.temoignages>li .content h2 {
-    margin: 20px 0 0
-}
-
-ul.people>li .content .fonction {
-    font-family: Chivo,Arial,sans-serif;
-    color: #0b4374;
-    font-size: 13px;
-    line-height: 18px;
-    font-weight: 700
-}
 
 
   .form-group {
@@ -3775,21 +3718,27 @@ ul.people>li .content .fonction {
     width: 100%;
     padding: 5px;
     font-size: 14px;
+    border-radius: 5px;
   }
 
   button {
     padding: 10px 15px;
-    background-color: #333;
-    color: #fff;
+    background-color: #0464fe;
+    color: #fffefe;
     border: none;
     cursor: pointer;
+    border-radius: 25px 0 25px 0;
   }
 
   button:hover {
-    background-color: #555;
+    background-color: #032080;
+    color: #95d9fa;
   }
 
   .error-message {
     color: red;
     margin-top: 10px;
   }
+.table-hover>tbody>tr:hover{
+    background-color: #001e44;
+}
